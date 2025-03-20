@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(15, 15, 15);
+    padding: 0px;
+    margin: 0px;
+    color: whitesmoke;
+    margin: 70px;
+}
+
+main {
+    font-size: larger;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+header{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+
+
+nav {
+    padding: 0%;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+color: whitesmoke;
+text-decoration: none;
+padding: 15px;
+display: block;
+}
+
+.navbar a:hover {
+    color: yellow;
+    background-color: darkslategrey;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 16px;    
+}
+
+.dropdown .itens{
+    text-decoration: none;
+    color: beige;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    box-shadow: 2px 2px 5px white;
+}
+
+.dropdown:hover .itens {
+    display: block;
+}
+
+#logo {
+    text-align: center;
+    margin: 30px;
+
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 20px;
+}
